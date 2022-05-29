@@ -1,0 +1,189 @@
+#barra_ricerca{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#barra_ricerca h1{
+  font-size: 30px;
+  margin: 0px;
+}
+
+#scelta{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#barra_ricerca div{
+   cursor: pointer;
+}
+
+input#name {
+  margin-left: 5px;
+}
+
+#bord{
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid gray;
+}
+
+#cerca, #cerca_genere{
+      font-size: 25px;
+      display: none;
+}
+
+#cerca_genere{
+  flex-direction:  column;
+}
+
+
+.stile{
+  display: flex;
+  align-items: center;  
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.block{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#anime-view {
+  display: flex;
+  flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+  
+#anime-view img {
+  max-width: 100%;
+  height: 400px;
+  opacity: 1;
+  transition: 0.3s opacity ease, 0.3s transform ease;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#anime-view img:hover {
+    transform: scale(1.05);
+}
+
+.off{
+    display: none !important;
+}
+
+#anime div{
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#anime img{
+ margin-bottom: 15px;
+ height: 400px;
+}
+
+#anime div span{
+  font-size: 19px
+}
+
+#anime span span{
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  border: solid black 2px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.star_off{background-image: url(../assets/pref.svg) !important;}
+.star_off{
+  position: relative;
+  top: 45px;
+  right: -115px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.star_off_1{background-image: url(../assets/pref2.svg) !important;}
+.star_off_1{
+  position: relative;
+  top: 35px;
+  right: -115px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+.back{background-image: url(../assets/back.svg) !important;}
+.back{
+  position: relative;
+  top: 60px;
+  padding: 10px;
+  left: -600px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.uno_checked{background-image: url(../assets/1_checked.png) !important;}
+.due_checked{background-image: url(../assets/2_checked.png) !important;}
+.tre_checked{background-image: url(../assets/3_checked.png) !important;}
+.quattro_checked{background-image: url(../assets/4_checked.png) !important;}
+.cinque_checked{background-image: url(../assets/5_checked.png) !important;}
+
+.uno_unchecked{background-image: url(../assets/1_unchecked.png) ;}
+.due_unchecked{background-image: url(../assets/2_unchecked.png) ;}
+.tre_unchecked{background-image: url(../assets/3_unchecked.png) ;}
+.quattro_unchecked{background-image: url(../assets/4_unchecked.png);}
+.cinque_unchecked{background-image: url(../assets/5_unchecked.png) ;}
+
+#uno, #due, #tre, #quattro, #cinque{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+#uno,#due, #tre, #quattro{
+  margin-right: 5px;
+}
+
+.onok{
+  display: flex !important;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#page{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}

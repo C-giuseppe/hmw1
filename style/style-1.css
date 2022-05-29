@@ -1,0 +1,104 @@
+body{   
+    background-color: #eeeed7;
+    background-image: url(../assets/sfondo.jpg);
+    background-size: contain;
+    background-position: center;
+    margin: 0px;
+}
+
+#main{ 
+    display:flex; 
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
+    position: relative; 
+}
+
+
+label, .file_name{ 
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;   
+    margin:4px;  
+    font-family: Roboto Slab;
+    color: #eeab0e;
+    font-size: 20px;
+}
+
+#login{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+header{ 
+    width: 100%;
+    height:200px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display:flex; 
+    flex-direction:row;
+    justify-content: center;
+    align-items:flex-start; 
+    position: relative;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#title{ 
+    font-size: 125px;
+    margin:0px; 
+    margin-top:10px;
+    font-family: Roboto Slab;
+    color: #eeab0e;
+    z-index: 1;
+    background-color: rgb(4 4 4 / 76%);
+}
+
+
+form{
+    border: 5px solid black;
+    padding: 5px; 
+    background-color: rgb(4 4 4 / 76%);
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signup{
+   font-weight: bold;
+   font-size: 18px;
+   color: #eeab0e;
+   flex-direction: row;
+   justify-content: center;
+}
+
+#signup a{
+    color: #eeab0e;
+    margin-left: 5px;
+}
+
+.errore{
+    color: red; 
+    text-align:center; 
+    font-size: 20px;
+}
+.remember{
+    flex-direction: row;
+    justify-content: center;
+}
+
+

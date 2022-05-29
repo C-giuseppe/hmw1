@@ -1,0 +1,67 @@
+body{
+     margin:0;
+     background-color: #eee7d7;
+     
+}
+
+header{ 
+    width: 100%;
+    height:150px; 
+    background-size: cover;
+    background-image: url(../assets/sfondo.jpg);
+    background-position: center;
+    background-repeat:no-repeat; 
+    margin-bottom: 40px;
+    display:flex; 
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+
+#title{ 
+    font-size: 80px;
+    margin: 0px; 
+    padding-left: 30px;
+    padding-right:30px;
+    font-family: Roboto Slab;
+    color: #ee960e;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+ a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+ 
+#link a{ 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto Slab;
+    color: #ee960e;
+    margin-right: 20px;
+    margin-left:20px;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+
+#link{ 
+    display:flex; 
+    justify-content: space-between;
+    margin: 20px;
+}
+#menu {
+    display: none;
+    margin-right:20px; 
+    margin-bottom:20px; 
+  }
+  
+#menu div {
+    width: 25px;
+    height: 5px;
+    background-color:black;
+    margin: 5px 0;
+}
+
